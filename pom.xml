@@ -110,8 +110,20 @@
 			<artifactId>postgresql</artifactId>
 			<version>42.5.3</version>
 		</dependency>
+        <dependency>
+            <groupId>com.qaprosoft</groupId>
+            <artifactId>carina-utils</artifactId>
+            <version>8.0.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.qaprosoft</groupId>
+            <artifactId>carina-webdriver</artifactId>
+            <version>8.0.1</version>
+            <scope>test</scope>
+        </dependency>
 
-	</dependencies>
+    </dependencies>
 
 	<build>
 		<plugins>
